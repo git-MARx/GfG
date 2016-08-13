@@ -30,15 +30,12 @@ public class mergeSortedList extends LnkedList {
         l2.push(8);
         l2.push(4);
         l2.push(3);
-        l1.prntList();
-        System.out.println("");
-        l2.prntList();
-        System.out.println("");
+        l1.prntList(l1.head);
+        l2.prntList(l2.head);
 
         l1.MergeLists(l1.head, l2.head);
-        l1.prntList();
-        System.out.println("");
-        l2.prntList();
+        l1.prntList(l1.head);
+        l2.prntList(l2.head);
     }
 
     node MergeLists(node list1, node list2) {

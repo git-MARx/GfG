@@ -130,7 +130,6 @@ class CheckCycle {
     public boolean checkCycle(int adjacency_matrix[][], int source) {
         boolean cyclepresent = false;
         int number_of_nodes = adjacency_matrix[source].length - 1;
-        System.out.println("    jnfsjdk   "+adjacency_matrix[source].length);
         adjacencyMatrix = new int[number_of_nodes + 1][number_of_nodes + 1];
         for (int sourcevertex = 1; sourcevertex <= number_of_nodes; sourcevertex++) {
             for (int destinationvertex = 1; destinationvertex <= number_of_nodes; destinationvertex++) {
