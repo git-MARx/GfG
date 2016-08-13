@@ -11,7 +11,7 @@ import java.util.Stack;
  *
  * @author Rahul
  */
-public class Node {
+ class Node {
 
     int key;
     Node left, right;
@@ -22,7 +22,7 @@ public class Node {
     }
 }
 
-class BinaryTree {
+public class BinaryTree {
 
     Node root;
 

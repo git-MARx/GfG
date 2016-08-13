@@ -13,11 +13,11 @@ package GfG;
 // BFS(int s) traverses vertices reachable from s.
 import java.io.*;
 import java.util.*;
-
+import static GfG.Graph.*;
 class Graph {
 
-    static int V;
-    static LinkedList<Integer> adj[];
+    public static int V;
+    public static LinkedList<Integer> adj[];
 
     public Graph(int v) {
         V = v;
@@ -32,12 +32,7 @@ class Graph {
     }
 }
 
-class BFS extends Graph {
-
-    public BFS(int v) {
-        super(v);
-    }
-
+class BFS {
     static void BFS(int s) {
         boolean visited[] = new boolean[V];
         LinkedList<Integer> queue = new LinkedList();

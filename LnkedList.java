@@ -26,30 +26,30 @@ public class LnkedList {
 
     public static void main(String[] args) {
         LnkedList ll = new LnkedList();
-        ll.head = new node(1);
+        ll.head = new node(10);
         ll.push(5);
         ll.push(4);
         ll.push(3);
         ll.push(2);
         ll.push(1);
         ll.push(0);
-        ll.append(2);
-        ll.append(3);
-        ll.append(4);
-        ll.append(5);
-        ll.append(6);
-        ll.insertAfter(ll.head, 8);
-        
-        ll.insertAfterNodeNo(1, 0);
-        ll.prntList();
-        System.out.println("");
-        ll.deleteByKey(5);
-        ll.prntList();
-        System.out.println("");
-        ll.deleteByPosition(3);
-        ll.prntList();
-        System.out.print("\nlength = "+ll.getLength() +"\n");
-        ll.reverseList();
+//        ll.append(2);
+//        ll.append(3);
+//        ll.append(4);
+//        ll.append(5);
+//        ll.append(6);
+//        ll.insertAfter(ll.head, 8);
+//        
+//        ll.insertAfterNodeNo(1, 0);
+//        ll.prntList();
+//        System.out.println("");
+//        ll.deleteByKey(5);
+//        ll.prntList();
+//        System.out.println("");
+//        ll.deleteByPosition(3);
+//        ll.prntList();
+//        System.out.print("\nlength = "+ll.getLength() +"\n");
+//        ll.reverseList();
         ll.prntList();
         
     }
